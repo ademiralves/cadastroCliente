@@ -1,0 +1,16 @@
+npm init
+para mostrar o package.json
+
+npm install --save express
+instalação do express
+
+npm run 
+Colocar o comando de inicio (Start) no package.json 
+
+ROTA
+app.get("/dados/:nome/:cargo", function(req, resp){
+    resp.send("Página de produto do meu app");
+})
+
+npm install nodemon -g
+Facilita startar o servidor
